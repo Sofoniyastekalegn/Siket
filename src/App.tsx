@@ -21,6 +21,13 @@ export default function App() {
         <Contact />
       </main>
       <Footer />
+      {/* We place the widget at the very end of the DOM so it sits on top 
+          of all other content (like the 3D Robot) without interfering with layout. */}
+      
+      
+      <WhatsAppWidget />
+
+          
     </>
   )
 }
