@@ -1457,3 +1457,33 @@ figcaption {
 .hero-copy > *:nth-child(3) {
   animation-delay: 100ms;
 }
+/* --- WHATSAPP WIDGET OVERRIDES --- */
+
+/* Ensures the floating button and chatbox stay above the 3D canvas 
+   (the Robot component uses a high z-index, so we match it). */
+   .floating-whatsapp {
+    z-index: 9999 !important;
+  }
+  
+  /* Forces the widget to use your "Outfit" font (--sans) instead of its default. */
+  .floating-whatsapp-chatbox {
+    font-family: var(--sans) !important;
+  }
+  
+  /* Matches the chat header to your "Night" / Dark theme background. */
+  .floating-whatsapp-chatbox header {
+    background-color: var(--dark) !important;
+    color: var(--cream) !important;
+  }
+  
+  /* Matches the input area to your "Field" and "Rule" brand variables. */
+  .floating-whatsapp-chatbox footer {
+    background-color: var(--field) !important;
+    border-top: 1px solid var(--rule) !important;
+  }
+  
+  /* Ensures the text input uses your "Paper" and "Ink" colors for readability. */
+  .floating-whatsapp-chatbox input {
+    background-color: var(--paper) !important;
+    color: var(--ink) !important;
+  }
