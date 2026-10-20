@@ -14,7 +14,7 @@ export const studio = {
   city: 'Addis Ababa',
   whatsapp: {
     number: '251978695556',
-    defaultMessage: 'Hello Siket Digitlas! I found your website and would like to discuss a project ',
+    defaultMessage: 'Hello Siket Digitals! I found your website and would like to discuss a project.',
   }
 }
 
